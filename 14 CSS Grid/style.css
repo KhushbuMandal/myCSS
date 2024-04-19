@@ -1,0 +1,103 @@
+*{
+    /* Good practice */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container{
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #7f86a9;
+    background-image: linear-gradient(43deg, #7f86a9 0%, #cc7ec5 46%, #c4b29c 100%);
+
+    /* To make it grid we have to code like  */
+    display: grid;
+    padding: 2rem;
+    row-gap: 2rem;
+    column-gap: 2rem;
+
+    /* grid-template-rows: 300px 200px;
+    grid-template-columns: 200px 100px 100px; */
+    
+    /* grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+     */
+
+     /* grid-template-rows: repeat(2,1fr); */
+     grid-template-rows: repeat(6,1fr);
+     grid-template-columns: repeat(1,1fr);
+}
+
+.item{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+    
+    border:2px solid #cc7ec5;
+    color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* .header , .footer{
+    
+    grid-column-start: 1;
+    grid-column-end:  4;
+}
+/* 
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+} */
+
+/* .sideBar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.content1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}  */
+
+@media (min-width :768px){
+
+    .container{
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+
+
+
+    .header , .footer{
+    
+        grid-column-start: 1;
+        grid-column-end:  4;
+    }
+    /* 
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    } */
+    
+    .sideBar{
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    
+    .content1{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    
+}

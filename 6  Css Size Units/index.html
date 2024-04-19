@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Size Units</title>
+    <style>
+        /* .box{ 1
+            border: 2px solid rosybrown;
+            /* Kiska 50 percent box claas ka jo div me hai uska immediate parent or uska immediate parent body hai 
+            width: 50%;
+        } */
+        .parent{
+            border: 2px solid brown;
+            background-color: rgb(51, 121, 123);
+        }
+        /* the child class overlap the parent class
+        and the width is dependent on the parent class width i.e 50 % parent class width */
+        .child{
+            border: 2px solid green;
+            background-color: rgb(209, 176, 226);
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div class="box">Today we will study about the CSS Size Units</div>  1-->
+    <div class="parent">
+        <div class="child">
+            Parent and the child
+        </div>
+    </div>
+</body>
+</html>

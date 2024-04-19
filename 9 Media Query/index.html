@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .container{
+            width: 400px;
+            height: 400px;
+            background: rgb(204, 86, 106);
+            border: 2px rgb(180, 27, 78) solid;
+        }
+        /* 0 to 500px coral color */
+        /* @media (max-width:500px)  {
+            .container{
+                background-color: coral;
+            }
+        } */
+
+        /* 500px se upper coral color */
+        /* @media (min-width:500px)  {
+            .container{
+                background-color: coral;
+            }
+        } */
+
+        /* we can also set range value also */
+        /* @media (min-width:200px)and(max-width:500px){
+            .container{
+                background-color: rgb(131, 34, 211);
+            }
+        } */
+
+        @media (min-width:200px) and (max-width:500px) {
+            .container{
+                background-color: rgb(131, 34, 211);
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        Hii !!! Today We are going to learn Media Queries
+    </div>
+
+</body>
+</html>

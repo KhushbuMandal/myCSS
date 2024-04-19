@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            /* if we want to use it anywhere in the program */
+            --primary-color: brown;
+            --custom-width: 500px;
+        }
+        .container{
+            height: 700px;
+            background-color: pink;
+            border: 5px solid rgb(198, 18, 78);
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box
+        {
+            /* but we can only use it in the braces inside */
+            --primary-color: brown;
+            --custom-width: 500px;
+
+            background-color: rgb(81, 132, 134);
+            width: var(--custom-width);
+            height: 450px;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+            /* x offset y offset color */
+            /* box-shadow: 10px 10px rebeccapurple; */
+            
+            /* blur radius should be positive */
+            /* box-shadow: 10px 15px 5px brown; */
+
+            /* 4th value is spread radius */
+            /* box-shadow: 10px 15px 5px 30px brown; */
+
+            /* because of inset shadoe is inside  */
+            /* box-shadow:inset 10px 15px 5px brown; */
+
+
+            /* Multiple shadow */
+            /* box-shadow: 10px 15px var(--primary-color) , 15px 10px palevioletred;
+            */
+
+            /* TEXT SHADOW SAME AS BOX SHADOW BUT LITTLE SYNTAX DIFF */
+            #head1{  
+                text-shadow: 5px 5px rgb(240, 178, 97);
+            }
+
+
+
+
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="img2.jpg" width="400px">
+            <h2 id="head1">Anime keeps the mind calm</h2>
+
+            <p>Anime, originating from Japan, encompasses diverse genres, from action-packed shonen to emotionally engaging slice-of-life narratives. Renowned for its vibrant art style and compelling storytelling, anime has garnered a global fanbase. Its influence extends beyond entertainment, inspiring cultural phenomena, fostering creativity, and sparking meaningful discussions on various themes.
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>

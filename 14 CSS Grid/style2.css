@@ -1,0 +1,66 @@
+*{
+    /* Good practice */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+}
+/*
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(108, 144, 211);
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(4 , 100px); 
+    /* row-gap: 0px;
+    column-gap: 0px; */
+
+/* } */
+
+/* .item{
+    height: 100vh;
+    width: 100vw; 
+    height: ;
+    background-color: burlywood;
+    border: 3px solid red;
+} */
+
+.container{
+    /* gap q hai bich me items ke qki vo sab evenly divide ho gye hai container ki puri height le kr */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(121, 121, 225);
+    display: grid;
+    grid-template-columns:repeat(3 , 1fr) ;
+    grid-template-rows: repeat(4 , 200px);
+    gap: 0.4rem;
+    padding: 4rem;
+    border: 5px solid black;
+
+    
+    justify-items: end;
+}
+
+.item{
+    width: 100px;
+    height: 100px;  
+    background-color: burlywood;
+    border: 5px solid black;
+
+    /* justify self grid ke horizontal axis me khelega */
+    /* justify-self: end; */
+
+    /* align self grid ke vertical axis  me khelega*/
+    /* align-self: stretch; */
+
+    /* combination of both justify sek=lf and align self */
+    place-self: center;
+
+}
+ 

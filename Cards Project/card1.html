@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+            /* min-height: 728px; */
+            background-color: #8EC5FC;
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .card{
+
+            width: 400px;
+            height: 500px;
+            background-color: white;
+            border-radius: 30px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+
+        }
+        .card img{
+            height: 60%;
+            border-radius: 30px;
+        }
+
+        .card h2{
+            font-weight:bolder;
+            font-size: 1.7rem;
+        }
+        .card p {
+            font-weight: bolder;
+            font-size: large;
+            font-style: italic;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="GitHubQR.png" alt="">
+
+            <h2>Improve Your front end skills by developing Projects</h2>
+
+            <p>Scan this QR Code to visit my GitHub Profile</p>
+
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam explicabo molestias aut, mollitia nobis omnis nulla animi molestiae quod aspernatur.
+            </p> -->
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>

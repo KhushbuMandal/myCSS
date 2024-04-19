@@ -1,0 +1,47 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(211, 96, 115);
+    border: 3px solid rgb(181, 1, 61);
+    margin: auto;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    transition: all 3s linear;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box:hover{
+    /* transform: rotate(360deg); */
+    /* transform: rotate(-45deg); */
+
+    /* transform: scale(5); */
+    /* transform: scale(0.7);*/
+
+    /* transform: skew(-45deg); */
+
+    /*                   x axis  y axis */
+    transform: translate(500px , 500px);
+
+    /* matrix is remaining */
+
+
+}
+
+p{
+    font-size: 20px;
+    font-weight: 1000px;
+    font-style:italic;
+}

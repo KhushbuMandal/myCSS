@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query with FlexBox</title>
+    <style>
+        .container{
+            /* width: 1000px;
+            height: 1000px; */
+            background-color: pink;
+            border: 2px solid red;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+
+        }
+        #box1{
+            background-color: brown;
+        }
+        #box2{
+            background-color: rgb(215, 100, 100);
+        }
+        #box3{
+            background-color: rgb(124, 57, 57);
+        }
+        /* matlb min width 640 hona hi chahiye ye media lgane ke liye */
+         /* Apply media query for screens wider than 640px */
+        @media (min-width:640px){
+            .container{
+                flex-direction:row;
+            }
+        }
+        /* Apply media query for screens up to 640px */
+        @media (max-width:640px){
+            .container{
+                flex-direction:column;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+    </div>
+    
+</body>
+</html>

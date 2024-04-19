@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box sizing ->Border Box</title>
+    <style>
+        *{
+                
+            margin: 0;
+            padding: 0;
+            /* boeder box krne se hamara box size same hi rhega but border size nhi rhega to hamra box size bad jayega padding  add krne se */
+            box-sizing: border-box;
+        }
+        .box{
+            width :300px;
+            height: 300px;
+            border: 10px solid black;
+            /* padding universal me nhi dalna hai qki vo unversal hai to whole ui me replect hoha hume  box class me dalna hai to see the change  */
+            padding :10px;
+
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!-- <h1>Hii we are learning Block Display</h1>
+
+    <h5>Block Display takes left to right width. It repect the edited width and height . And repect the edited padding and margin</h5> -->
+
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit veniam, a esse explicabo expedita beatae quo accusamus quasi fugiat repudiandae maxime eum incidunt, architecto deleniti autem magnam porro optio in. Dolorem nesciunt non et aliquid nobis quibusdam cumque sunt officia praesentium soluta, sequi, esse voluptas a sint dicta optio.</div>
+
+
+    
+</body>
+</html>
