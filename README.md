@@ -2,7 +2,30 @@
 
 Welcome to my CSS learnings and code repository! This repository is a collection of my CSS experiments, projects, and concepts that I've learned and implemented. It includes various CSS effects, such as shadows, animations, transitions, transforms, and different layout techniques using Flexbox and CSS Grid.
 
-
+## Table of Contents
+- [Introduction](#introduction)
+- [CSS Effects](#css-effects)
+    - [Shadow Effects](#shadow-effects)
+    - [Animations](#animations)
+    - [Transition Effects](#transition-effects)
+    - [2D Transforms](#2d-transforms)
+    - [3D Transforms](#3d-transforms)
+- [CSS Layouts](#css-layouts)
+    - [Box Model](#box-model)
+    - [Display Property](#display-property)
+    - [Position Property](#position-property)
+    - [Size Units](#size-units)
+    - [Float and Clear](#float-and-clear)
+    - [Flexbox](#flexbox)
+    - [CSS Grid](#css-grid)
+- [Responsive Design](#responsive-design)
+    - [Media Queries](#media-queries)
+- [Projects](#projects)
+    - [Cards Project](#cards-project)
+    - [Recipe Project](#recipe-project)
+- [Blogs](#blogs)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
 
@@ -65,4 +88,17 @@ A project exploring the creation of a recipe layout using CSS.
 
 Additional notes and explanations of CSS concepts.
 
+## Contributing
 
+If you would like to contribute to this repository, please follow these steps:
+- Fork the repository
+- Create a new branch (`git checkout -b feature/your-feature`)
+- Make changes and commit them (`git commit -m 'Add your feature'`)
+- Push to the branch (`git push origin feature/your-feature`)
+- Open a pull request
+
+## License
+
+Specify the license under which your project is distributed.
+
+Thank you for checking out my CSS learnings and code repository!
