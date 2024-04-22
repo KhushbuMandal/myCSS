@@ -25,7 +25,7 @@ Welcome to my CSS learnings and code repository! This repository is a collection
     - [Recipe Project](#recipe-project)
 - [Blogs](#blogs)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -84,9 +84,9 @@ A project focusing on creating a card layout using CSS.
 ### Recipe Project
 A project exploring the creation of a recipe layout using CSS.
 
-## Blogs
+### Blogs
 
-Additional notes and explanations of CSS concepts.
+Blog wwbsite which helped me to enhance my CSS Learning.
 
 ## Contributing
 
@@ -97,8 +97,5 @@ If you would like to contribute to this repository, please follow these steps:
 - Push to the branch (`git push origin feature/your-feature`)
 - Open a pull request
 
-## License
-
-Specify the license under which your project is distributed.
 
 Thank you for checking out my CSS learnings and code repository!
